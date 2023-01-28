@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- responsive screen size viewport code-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insert Title Here</title>
+    <!--Link to CSS reset-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <!-- Link to CSS style sheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Link to Materialize-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Materialize Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col l6 m6 s6">
+            <h1 class="title">Owen</h1>
+          </div>
+          <div class="col l6 m6 s6">
+            <p class="sub-title">Video Editor</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l12 m12 s12">
+            <h1>Zimmerman</h1>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <!-- Navigation bar -->
+      <nav class="nav-center z-depth-0">
+        <div class="nav-wrapper">
+          <ul id="nav-mobile" class="hide-on-med-and-down">
+            <li><a href="index.html">Explore</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- side navigation for mobile -->
+      <ul id="slide-out" class="sidenav">
+        <li>
+          <div class="user-view">
+            <div class="background">
+                <div class="bg-sidenav"></div>
+            </div>
+            <a href="#user"><img class="circle" src="images/yuna.jpg" /></a>
+            <a href="#name"><span class="white-text name">Owen Zimmerman</span></a>
+            <a href="#email"><span class="white-text email">owen.s.zimmerman@gmail.com</span></a>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+      </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </header>
+
+    <!-- main content -->
+    <div class="container main-content">
+      <div class="row">
+        <div class="col l6 m6 s12">
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/U5wDdtDUI84"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+        <div class="col l6 m6 s12">
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/TqgnRn0PeW8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div>Copyright &copy; 2023 Faye Creative</div>
+    </footer>
+
+    <!--Javascript file-->
+    <script src="assets/javascript/logic.js"></script>
+  </body>
+</html>

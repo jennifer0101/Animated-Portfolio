@@ -1,0 +1,89 @@
+/* font-family: 'Noto Serif', serif;
+font-family: 'Oswald', sans-serif; */
+
+body {
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #171717;
+    color: #ededed;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Oswald", sans-serif;
+  }
+  
+  h1 {
+    font-size: 16vw !important;
+    line-height: 0.6 !important;
+  }
+  
+  .title {
+    margin-top: 30%;
+  }
+  .sub-title {
+    margin-top: 43%;
+    font-size: 3vw;
+    float: right;
+    color: #da0037;
+  }
+  
+  nav {
+    background-color: transparent !important;
+  }
+  
+  nav.nav-center ul {
+    text-align: center;
+  }
+  
+  nav.nav-center ul li {
+    display: inline;
+    float: none;
+  }
+  
+  nav.nav-center ul li a {
+    display: inline-block;
+  }
+  
+  nav ul a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+  }
+  
+  nav ul li a {
+    color: #ededed;
+    font-size: 1.7em;
+    margin-top: 20px;
+  }
+  
+  .bg-sidenav {
+      background-color: #444444;
+      height: 200px;
+  }
+  
+  hr {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 3px;
+    border: 0;
+    border-top: 3px solid #da0037;
+  }
+  
+  .main-content {
+    margin-top: 15vh !important;
+  }
+  
+  .page-footer {
+    text-align: center;
+    margin-top: 40vh;
+    margin-bottom: 20px;
+    background-color: transparent !important;
+  }
+  

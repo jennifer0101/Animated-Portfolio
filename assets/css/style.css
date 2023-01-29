@@ -36,7 +36,7 @@ body {
   nav {
     background-color: transparent !important;
   }
-  
+
   nav.nav-center ul {
     text-align: center;
   }
@@ -60,7 +60,24 @@ body {
     font-size: 1.7em;
     margin-top: 20px;
   }
-  
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.5) !important;
+  }
+
+  .sideStick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  #nav-wrapper {
+    z-index: 2;
+  }
+
   .bg-sidenav {
       background-color: #444444;
       height: 200px;
@@ -86,4 +103,5 @@ body {
     margin-bottom: 20px;
     background-color: transparent !important;
   }
+
   

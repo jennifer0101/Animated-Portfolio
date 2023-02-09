@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
+    $('.scrollspy').scrollSpy();
 
         // execute navFunction on scroll
         window.onscroll = function(){navFunction()};

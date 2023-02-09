@@ -26,6 +26,7 @@ body {
   .title {
     margin-top: 30%;
   }
+
   .sub-title {
     margin-top: 43%;
     font-size: 3vw;
@@ -34,7 +35,7 @@ body {
   }
   
   nav {
-    background-color: transparent !important;
+    background-color: #171717 !important;
   }
 
   nav.nav-center ul {
@@ -57,15 +58,14 @@ body {
   
   nav ul li a {
     color: #ededed;
-    font-size: 1.7em;
-    margin-top: 20px;
+    font-size: 1.3em;
   }
 
   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0,0,0,.5) !important;
+    /* background-color: rgba(0,0,0,.5) !important; */
   }
 
   .sideStick {
@@ -76,6 +76,12 @@ body {
 
   #nav-wrapper {
     z-index: 2;
+    height: 125px;
+  }
+
+  a.sidenav-trigger {
+    color: #da0037;
+    padding-right: 20px;
   }
 
   .bg-sidenav {

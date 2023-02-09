@@ -32,6 +32,12 @@ body {
     font-size: 3vw;
     float: right;
     color: #da0037;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .section-heading{
+    padding-top: 15vh;
+    padding-bottom: 5vh;
   }
   
   nav {
@@ -110,4 +116,12 @@ body {
     background-color: transparent !important;
   }
 
+  .video-container {
+    border-color: #444444;
+    border-style: solid;
+    border-top-width: 7px;
+    border-left-width: 7px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+  }
   

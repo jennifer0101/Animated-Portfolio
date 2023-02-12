@@ -68,7 +68,7 @@ h6 {
 }
 
 nav {
-  background-color: #171717 !important;
+  background-color: transparent !important;
 }
 
 nav.nav-center ul {
@@ -102,7 +102,7 @@ nav ul li a {
 .sticky {
   position: fixed;
   top: 0;
-  width: 70%;
+  width: 100%;
 }
 
 .page-footer {
@@ -158,7 +158,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
+  background-color: #171717;
 }
 
 
@@ -166,18 +166,8 @@ nav ul li a {
   background-color: #171717;
 }
 
-#panel-2 {
-  background-image: url("assets/images/camera.jpg");
-}
-
 #about {
   background-color: #171717;
-}
-
-#panel-4 {
-background-image: img id="owen-pic"
-src="assets/images/about-pic.jpg"
-alt="Owen Zimmerman Video Editor";
 }
 
 #skills {

@@ -15,7 +15,7 @@ body {
     text-align: center;
     position: relative;
     background: #000;
-    height: 80vh;
+    height: 100vh;
   }
   
   .glide img {
@@ -23,7 +23,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     mix-blend-mode: multiply;
   }
   

@@ -24,4 +24,15 @@ $(document).ready(function(){
             sideNav.classList.remove("sideStick");
           }
         }
+
+        let tl = new TimelineMax();
+
+// tl.staggerFromTo(
+//   ".title",
+//   1.5,
+//   { opacity: 0, x: 120, ease: Back.easeOut.config(5)},
+//   { opacity: 1, x: 0},
+//   1
+// );
+
   });

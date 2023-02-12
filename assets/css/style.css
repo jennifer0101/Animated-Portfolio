@@ -7,24 +7,14 @@ body {
     line-height: 1.6;
     background-color: #171717;
     color: #ededed;
-    margin: 0;
+ 
   }
 
-  .glide {
+  /* .glide {
     font-weight: bold;
     text-align: center;
     position: relative;
-    background: #000;
     height: 100vh;
-  }
-  
-  .glide img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90vh;
-    mix-blend-mode: multiply;
   }
   
   .glide .title {
@@ -34,13 +24,9 @@ body {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     line-height: 1.9;
-    color: #fff;
-  }
+  } */
   
-  h1 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 800;
-  }
+ 
   h2,
   h3,
   h4,
@@ -52,6 +38,8 @@ body {
   h1 {
     font-size: 16vw !important;
     line-height: 0.6 !important;
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
   }
   
   .title {
@@ -59,11 +47,12 @@ body {
   }
 
   .sub-title {
-    margin-top: 43%;
+    margin-top: 27vh;
     font-size: 3vw;
     float: right;
     color: #da0037;
     font-family: 'Oswald', sans-serif;
+   
   }
 
   .section-heading{
@@ -98,22 +87,10 @@ body {
     font-size: 1.3em;
   }
 
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    /* background-color: rgba(0,0,0,.5) !important; */
-  }
-
-  .sideStick {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
 
   #nav-wrapper {
     z-index: 2;
-    height: 125px;
+ 
   }
 
   a.sidenav-trigger {
@@ -137,7 +114,7 @@ body {
   }
   
   .page-footer {
-    clear:both;
+    clear: both;
     text-align: center;
     margin-top: 70vh !important;
     margin-bottom: 20px;

@@ -2,8 +2,6 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.scrollspy').scrollSpy();
 
-
-
         // let tl = new TimelineMax();
 
         // tl.staggerFromTo(
@@ -14,4 +12,17 @@ $(document).ready(function(){
         //   1
         // );
 
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("nav-wrapper");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        
   });

@@ -31,24 +31,18 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <!-- GSAP Greensock Animation cdn -->
+    <!-- GSAP Greensock Animation cdn, scroll trigger, scroll to -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
   </head>
 
   <body>
-  
-    
-    <!-- <div class="glide">
-      <h1 class="title left-align">Owen<br><br>Zimmerman</h1>
-    </div>
-    <div class="glide-up">
-      <p class="sub-title">Video Editor</p>
-    </div> -->
-   
-   
+
     <header>
+      <section id="home" class="full-screen">
       <div class="container">
-        <div class="row">
+        <div class="row heading">
           <div class="col l6 m6 s6">
             <h1 class="title">OWEN<br>ZIMMERMAN</h1>
           </div>
@@ -56,22 +50,25 @@
             <p class="sub-title">Video Editor</p>
           </div>
         </div>
-        <hr />
       </div>
+      <div class="container">
+        <!-- Navigation bar -->
+        <div id="nav-wrapper">
+          <nav class="nav-center z-depth-0">
+            <ul id="nav-mobile">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#explore">Explore</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
   </header>
 
-  <div class="container">
-      <!-- Navigation bar -->
-      <div id="nav-wrapper">
-        <nav class="nav-center z-depth-0">
-          <ul id="nav-mobile">
-            <li><a href="#explore">Explore</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+
 
       <!-- side navigation for mobile -->
       <!-- <nav class="hide-on-large-only z-depth-0">
@@ -108,9 +105,14 @@
 
 
     <!-- main content -->
-    <div class="container main-content">
+    <!-- <div class="container main-content"> -->
       <!-- Explore Section - Scrollspy -->
-      <section id="explore" class="scrollspy">
+      <section id="panels">
+        <div id="panels-container" style="width: 500%">
+
+
+      <article id="explore" class="panel full-screen">
+        <div class="container">
         <h3 class="section-heading">Explore</h3>
         <div class="row">
           <div class="col l6 m6 s12">
@@ -140,11 +142,38 @@
               ></iframe>
             </div>
           </div>
+          <div class="panels-navigation text-right">
+            <div class="nav-panel" data-sign="plus">
+              <a href="#panel-2" class="anchor">Next</a>
+            </div>
+          </div>
         </div>
-      </section>
+        </div>
+      </article>
+
+      <article id="panel-2" class="panel full-screen">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img src="" alt="" />
+            </div>
+            <div class="col-6 d-flex flex-column">
+              <div class="panels-navigation">
+                <div class="nav-panel" data-sign="minus">
+                  <a href="#explore" class="anchor">Prev</a>
+                </div>
+                <div class="nav-panel" data-sign="plus">
+                  <a href="#about" class="anchor">Next</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
 
       <!-- About section - Scrollsby  -->
-      <section id="about" class="scrollspy">
+      <article id="about"  class="panel full-screen">
+        <div class="container">
         <h3 class="section-heading">About</h3>
         <div class="row">
           <div class="col l6 m6 s12">
@@ -183,11 +212,81 @@
             />
           </div>
           </div>
+          <div class="panels-navigation">
+            <div class="nav-panel" data-sign="minus">
+              <a href="#panel-2" class="anchor">Prev</a>
+            </div>
+            <div class="nav-panel" data-sign="plus">
+              <a href="#panel-4" class="anchor">Next</a>
+            </div>
+          </div>
         </div>
-      </section>
+        </div>
+      </article>
+
+      <article id="panel-4" class="panel full-screen">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img src="" alt="" />
+            </div>
+            <div class="col-6 d-flex flex-column">
+              <h2>Panel 4</h2>
+
+              <p class="step-description">
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Including versions of Lorem Ipsum.
+              </p>
+
+              <div class="panels-navigation">
+                <div class="nav-panel" data-sign="minus">
+                  <a href="#about" class="anchor">Prev</a>
+                </div>
+                <div class="nav-panel" data-sign="plus">
+                  <a href="#skills" class="anchor">Next</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+
+      <article id="skills" class="panel full-screen">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img src="" alt="" />
+            </div>
+            <div class="col-6 d-flex flex-column">
+              <h2>Panel 5</h2>
+
+              <p class="step-description">
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Including versions of Lorem Ipsum.
+              </p>
+
+              <div class="panels-navigation">
+                <div class="nav-panel" data-sign="minus">
+                  <a href="#panel-4" class="anchor">Prev</a>
+                </div>
+                <div class="nav-panel" data-sign="plus">
+                  <a href="#contact" class="anchor">Next</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      </div>
+</section>
+    
+    <!-- </div> -->
 
       <!-- Contact section - Scrollsby  -->
-      <section id="contact" class="scrollspy">
+      <section id="contact"  class="panel full-screen">
+        <div class="container">
         <h3 class="section-heading">Contact</h3>
         <div class="row contact-content">
           <h4 class="left-align"><i class="small material-icons">star</i>
@@ -203,8 +302,8 @@
                 <a href="tel:651-226-9875">PHONE
                 </h4></a>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="page-footer">

@@ -2,151 +2,234 @@
 font-family: 'Oswald', sans-serif; */
 
 body {
-    font-family: "Noto Serif", serif;
-    font-size: 18px;
-    line-height: 1.6;
-    background-color: #171717;
-    color: #ededed;
- 
-  }
+  font-family: "Noto Serif", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #171717;
+  color: #ededed;
+  height: 100%;
+}
 
-  /* .glide {
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    height: 100vh;
-  }
-  
-  .glide .title {
-    display: inline-block;
-    margin: 150px;
-    font-size: 20vw;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    line-height: 1.9;
-  } */
-  
- 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 800;
-  }
-  
-  .title {
-    margin-top: 10vh;
-    line-height: .9 !important;
-    font-size: 15vw !important;
-  }
+body {
+  overflow-x: hidden;
+}
 
-  .sub-title {
-    margin-top: 15vh;
-    font-size: 3vw;
-    text-align: right;
-    color: #da0037;
-    font-family: 'Oswald', sans-serif; 
-  }  
-  
-  hr {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -30px;
-    height: 3px;
-    border: 0;
-    border-top: 3px solid #da0037;
-  }
+a {
+  color: white;
+}
 
-  .section-heading{
-    padding-top: 20vh;
-    padding-bottom: 5vh;
-  }
+.full-screen {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
-  
-  
-  nav {
-    background-color: #171717 !important;
-  }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
 
-  nav.nav-center ul {
-    text-align: center;
-  }
-  
-  nav.nav-center ul li {
-    display: inline;
-    float: none;
-  }
-  
-  nav.nav-center ul li a {
-    display: inline-block;
-  }
-  
-  nav ul a {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-  }
-  
-  nav ul li a {
-    color: #ededed;
-    font-size: 1.3em;
-  }
-  
-  #nav-wrapper {
-    overflow: hidden;
-    z-index: 4;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+}
 
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 70%;
-  }
+.title {
+  margin-top: 10vh;
+  line-height: 0.9 !important;
+  font-size: 15vw !important;
+}
 
-  .page-footer {
-    clear: both;
-    text-align: center;
-    margin-top: 70vh !important;
-    margin-bottom: 20px;
-    background-color: transparent !important;
-  }
+.sub-title {
+  margin-top: 15vh;
+  font-size: 3vw;
+  text-align: right;
+  color: #da0037;
+  font-family: "Oswald", sans-serif;
+}
 
-  .video-container {
-    border-color: #565656;
-    border-style: solid;
-    border-top-width: 7px;
-    border-left-width: 7px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
-  }
+.heading {
+  overflow: hidden;
+  border-bottom: 4px solid #da0037;
+}
 
-  .contact-content {
-    float:right;
-    padding-right: 10vw;
-  }
+.section-heading {
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+}
 
-  .contact-content a {color: #7b7a7a}
-  .contact-content a:hover, .contact-content a:focus {color: #da0037; text-decoration:underline}
+nav {
+  background-color: #171717 !important;
+}
 
-  #about-info {
-    padding-right: 70px;
-  }
+nav.nav-center ul {
+  text-align: center;
+}
 
-  #image-info {
-    margin-left: 70px;
-  }
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
 
-  #owen-pic {
-    border-color: #565656;
-    border-style: solid;
-    border-top-width: 7px;
-    border-left-width: 7px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
-  }
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
+nav ul a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+nav ul li a {
+  color: #ededed;
+  font-size: 1.3em;
+}
+
+#nav-wrapper {
+  overflow: hidden;
+  z-index: 4;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 70%;
+}
+
+.page-footer {
+  clear: both;
+  text-align: center;
+  margin-top: 70vh !important;
+  margin-bottom: 20px;
+  background-color: transparent !important;
+}
+
+.video-container {
+  border-color: #565656;
+  border-style: solid;
+  border-top-width: 7px;
+  border-left-width: 7px;
+  border-right-width: 20px;
+  border-bottom-width: 20px;
+}
+
+.contact-content {
+  float: right;
+  padding-right: 10vw;
+}
+
+.contact-content a {
+  color: #7b7a7a;
+}
+.contact-content a:hover,
+.contact-content a:focus {
+  color: #da0037;
+  text-decoration: underline;
+}
+
+#about-info {
+  padding-right: 70px;
+}
+
+#image-info {
+  margin-left: 70px;
+}
+
+#owen-pic {
+  border-color: #565656;
+  border-style: solid;
+  border-top-width: 7px;
+  border-left-width: 7px;
+  border-right-width: 20px;
+  border-bottom-width: 20px;
+}
 
 
-  
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+
+#explore {
+  background-color: #171717;
+}
+
+#panel-2 {
+  background-image: url("assets/images/camera.jpg");
+}
+
+#about {
+  background-color: #171717;
+}
+
+#panel-4 {
+background-image: img id="owen-pic"
+src="assets/images/about-pic.jpg"
+alt="Owen Zimmerman Video Editor";
+}
+
+#skills {
+  background-color: #171717;
+}
+
+#panels #panels-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ddd;
+}
+#panels #panels-container .panel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+  text-align: left;
+}
+#panels #panels-container .panel img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#panels #panels-container .panel .panels-navigation {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+#panels #panels-container .panel .anchor-panel,
+#panels #panels-container .panel .nav-panel {
+  color: #000;
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
+#panels #panels-container .panels-navigation {
+  position: absolute;
+  width: 100%;
+  bottom: 2rem;
+  right: 2rem;
+}
+

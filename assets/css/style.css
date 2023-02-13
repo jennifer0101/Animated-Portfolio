@@ -25,13 +25,13 @@ a {
   overflow: hidden;
 }
 
-.wrapper {
+/* .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
-}
+} */
 
 h1,
 h2,
@@ -47,6 +47,7 @@ h6 {
   margin-top: 10vh;
   line-height: 0.9 !important;
   font-size: 15vw !important;
+  font-family: "Oswald", sans-serif;
 }
 
 .sub-title {
@@ -111,6 +112,7 @@ nav ul li a {
   margin-top: 70vh !important;
   margin-bottom: 20px;
   background-color: transparent !important;
+  z-index: 100;
 }
 
 .video-container {
@@ -168,11 +170,19 @@ nav ul li a {
 
 #about {
   background-color: #171717;
+
 }
 
 #skills {
   background-color: #171717;
+  height:100vh;
 }
+
+#contact {
+  background-color: #565656;
+
+}
+
 
 #panels #panels-container {
   height: 100vh;

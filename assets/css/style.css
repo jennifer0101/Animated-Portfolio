@@ -25,14 +25,6 @@ a {
   overflow: hidden;
 }
 
-/* .wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
-} */
-
 h1,
 h2,
 h3,
@@ -109,7 +101,7 @@ nav ul li a {
 .page-footer {
   clear: both;
   text-align: center;
-  margin-top: 70vh !important;
+  margin-top: 20px !important;
   margin-bottom: 20px;
   background-color: transparent !important;
   z-index: 100;
@@ -175,11 +167,12 @@ nav ul li a {
 
 #skills {
   background-color: #171717;
-  height:100vh;
+
 }
 
 #contact {
   background-color: #565656;
+height: 80vh;
 
 }
 

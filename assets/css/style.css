@@ -117,17 +117,18 @@ nav ul li a {
  margin-bottom: 20px;
   background-color: transparent !important;
   z-index: 100;
+  height: 60px;
 
 }
 
-.video-container {
+/* .video-container {
   border-color: #565656;
   border-style: solid;
   border-top-width: 7px;
   border-left-width: 7px;
   border-right-width: 20px;
   border-bottom-width: 20px;
-}
+} */
 
 /* .contact-content {
   float: right;
@@ -145,7 +146,7 @@ nav ul li a {
 }
 
 #contact-wrapper {
-  margin-top: 50px;
+  margin-top: 100px;
   z-index: 5000 !important;
 }
 
@@ -157,14 +158,14 @@ nav ul li a {
   margin-left: 70px;
 }
 
-#owen-pic {
+/* #owen-pic {
   border-color: #565656;
   border-style: solid;
   border-top-width: 7px;
   border-left-width: 7px;
   border-right-width: 20px;
   border-bottom-width: 20px;
-}
+} */
 
 
 #home {
@@ -193,9 +194,13 @@ nav ul li a {
 
 #contact {
   margin-top: 200px;
-height: 50vh;
+height: 55vh;
 background-image: linear-gradient(#171717, #565656);
 
+}
+
+#c-right {
+  margin-top: -100px;
 }
 
 
@@ -259,7 +264,7 @@ background-image: linear-gradient(#171717, #565656);
 .wave.upper {
   background-color: #565656;
   padding-bottom: 0;
-  margin-bottom: -31px;
+  /* margin-bottom: -31px; */
 }
 
 /* 

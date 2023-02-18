@@ -18,13 +18,6 @@ a {
   color: white;
 }
 
-.full-screen {
-  display: block;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
 h1,
 h2,
 h3,
@@ -61,7 +54,7 @@ p {
 
 .section-heading {
   padding-top: 20vh;
-  padding-bottom: 5vh;
+  padding-bottom: 15vh;
   text-align: center;
   color: #ededed;
 }
@@ -71,6 +64,7 @@ p {
   padding-top: 0px;
 }
 
+/* Navbar settings */
 nav {
   background-color: transparent !important;
 }
@@ -103,6 +97,7 @@ nav ul li a {
   z-index: 4;
 }
 
+/* sticky navbar */
 .sticky {
   position: fixed;
   top: 0;
@@ -110,34 +105,70 @@ nav ul li a {
   margin-top: 0px;
 }
 
-.page-footer {
-  /* clear: both; */
-  text-align: center;
-  padding-top: 20px !important;
- margin-bottom: 20px;
-  background-color: transparent !important;
-  z-index: 100;
-  height: 60px;
+/* Article/Panel settings */
+
+#about-info {
+padding-right: 20px;
+}
+
+#image-info {
+padding-left: 20px;
+padding-top: 20px;
+}
+
+#gears-pic {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
 
 }
 
-/* .video-container {
-  border-color: #565656;
-  border-style: solid;
-  border-top-width: 7px;
-  border-left-width: 7px;
-  border-right-width: 20px;
-  border-bottom-width: 20px;
-} */
+#owen-pic {
+  width: 100%;
+}
 
-/* .contact-content {
-  float: right;
-  padding-right: 10vw;
-} */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(#000000, #171717);
+}
+
+#explore {
+  background-color: #171717;
+}
+
+#panel-2 {
+  background-color: #171717;
+}
+
+#about {
+  background-color: #171717;
+}
+
+#panel-4 {
+  background-color: #171717;
+}
+
+#skills {
+  background-color: #171717;
+}
+
+#contact {
+  margin-top: 200px;
+  height: 55vh;
+  background-image: linear-gradient(#171717, #565656);
+}
 
 .contact-content a {
   color: #ededed;
 }
+
 .contact-content a:hover,
 .contact-content a:focus {
   color: #da0037;
@@ -145,64 +176,28 @@ nav ul li a {
   font-size: 1.1em;
 }
 
-#contact-wrapper {
-  margin-top: 100px;
-  z-index: 5000 !important;
-}
-
-#about-info {
-  padding-right: 70px;
-}
-
-#image-info {
-  margin-left: 70px;
-}
-
-/* #owen-pic {
-  border-color: #565656;
-  border-style: solid;
-  border-top-width: 7px;
-  border-left-width: 7px;
-  border-right-width: 20px;
-  border-bottom-width: 20px;
-} */
-
-
-#home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* background-color: #171717; */
-  height: 100vh;
-  background-image: linear-gradient(#000000, #171717);
-}
-
-
-#explore {
-  background-color: #171717;
-}
-
-#about {
-  background-color: #171717;
-
-}
-
-#skills {
-  background-color: #171717;
-
-}
-
-#contact {
-  margin-top: 200px;
-height: 55vh;
-background-image: linear-gradient(#171717, #565656);
-
+.page-footer {
+  text-align: center;
+  padding-top: 20px !important;
+  margin-bottom: 20px;
+  background-color: transparent !important;
+  z-index: 100;
+  height: 60px;
 }
 
 #c-right {
   margin-top: -100px;
 }
 
+
+/* Panel animation */
+
+.full-screen {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
 #panels #panels-container {
   height: 100vh;
@@ -215,6 +210,7 @@ background-image: linear-gradient(#171717, #565656);
   overflow: hidden;
   background-color: #ddd;
 }
+
 #panels #panels-container .panel {
   position: relative;
   width: 100%;
@@ -226,11 +222,13 @@ background-image: linear-gradient(#171717, #565656);
   color: #333;
   text-align: left;
 }
+
 #panels #panels-container .panel img {
   max-width: 100%;
   height: auto;
   display: block;
 }
+
 #panels #panels-container .panel .panels-navigation {
   width: 100%;
   display: -webkit-box;
@@ -240,12 +238,14 @@ background-image: linear-gradient(#171717, #565656);
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
+
 #panels #panels-container .panel .anchor-panel,
 #panels #panels-container .panel .nav-panel {
   color: #000;
   text-transform: uppercase;
   margin-right: 2rem;
 }
+
 #panels #panels-container .panels-navigation {
   position: absolute;
   width: 100%;
@@ -254,6 +254,7 @@ background-image: linear-gradient(#171717, #565656);
 }
 
 
+/* Diagnol line on contact panel */
 .wave {
   background-color: #171717;
 }
@@ -261,11 +262,9 @@ background-image: linear-gradient(#171717, #565656);
 .wave svg {
   display: block;
 }
+
 .wave.upper {
   background-color: #565656;
   padding-bottom: 0;
-  /* margin-bottom: -31px; */
 }
 
-/* 
- */

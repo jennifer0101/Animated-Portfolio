@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(".sidenav").sidenav();
-  // $(".scrollspy").scrollSpy();
+// $(".scrollspy").scrollSpy();
 
 // Sticky Navbar after scroll
   window.onscroll = function () {
@@ -112,6 +112,13 @@ tween = gsap.to(panels, {
 		end: () =>  "+=" + (panelsContainer.offsetWidth - innerWidth)
 	}
 });
-
-
 });
+
+  // mobile Navigation
+  function openNav() {
+    document.getElementById("mobile-nav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("mobile-nav").style.width = "0%";
+  }

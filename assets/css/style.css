@@ -52,7 +52,7 @@ p {
 }
 
 .section-heading {
-  padding-top: 20vh;
+  padding-top: 15vh;
   padding-bottom: 15vh;
   text-align: center;
   color: #ededed;
@@ -94,6 +94,62 @@ nav ul li a {
 #nav-wrapper {
   overflow: hidden;
   z-index: 4;
+}
+
+#nav-mobile a:hover, #nav-mobile  a:focus {
+  color: #565656;
+}
+
+/* Mobile Navbar settings */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(24, 24, 24, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ededed;
+  display: block;
+  transition: 0.3s;
+  font-size: 1.3em;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #565656;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+#side-nav {
+  display: none;
+  text-align: center;
+  margin-top: -30vh;
 }
 
 /* sticky navbar */
@@ -267,3 +323,24 @@ padding-top: 20px;
   padding-bottom: 0;
 }
 
+
+
+@media screen and (max-width: 600px){
+  #nav-wrapper {
+      display: none;
+  }
+  #side-nav {
+      display: block;
+  }
+  }
+
+ 
+
+  /* @media screen and (min-width: 0px) and (max-width: 900px) {
+    #mobile-nav{ display: block; } 
+     
+  }
+  @media screen and (min-width: 901px) and (max-width: 2000px) {
+    #mobile-nav{ display: none; }
+     
+  } */

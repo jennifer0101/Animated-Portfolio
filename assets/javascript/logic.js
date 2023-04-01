@@ -2,6 +2,7 @@ $(document).ready(function () {
   $(".sidenav").sidenav();
 // $(".scrollspy").scrollSpy();
 
+
 // Sticky Navbar after scroll
   window.onscroll = function () {
     myFunction();

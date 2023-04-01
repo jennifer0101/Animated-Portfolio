@@ -161,9 +161,12 @@ nav ul li a {
 
 /* Article/Panel settings */
 
-#about-info {
-padding-right: 20px;
+#about-info-1 {
+text-align: justify;
 }
+#about-info-2 {
+  text-align: justify;
+  }
 
 #image-info {
 padding-left: 20px;
@@ -171,18 +174,22 @@ padding-top: 20px;
 }
 
 #gears-pic {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 80%;
 
 
 }
 
 #owen-pic {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
 }
 
 #home {
@@ -305,11 +312,20 @@ padding-top: 20px;
   padding-bottom: 0;
 }
 
- @media screen and (max-width: 1245px){
-.sub-title {
-  font-size: 3rem; 
-  margin-top: 8vh;
+/* grayscale youtube videos */
+iframe{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
+
+@media screen and (max-width: 1245px){
+  .sub-title {
+    font-size: 3rem; 
+    margin-top: 8vh;
+  }
 }
 
 @media screen and (max-width: 992px){
@@ -321,7 +337,6 @@ padding-top: 20px;
     font-size: 18vw !important;
   }
 }
-
 
 @media screen and (max-width: 600px){
   #nav-wrapper {
@@ -337,28 +352,18 @@ padding-top: 20px;
   .title {
     font-size: 19vw !important;
   }
+}
+
+@media screen and (max-width: 320px){
+  .sub-title {
+    font-size: 1.5rem; 
+    margin-top: 5vh;
   }
+}
 
-  @media screen and (max-width: 320px){
-    .sub-title {
-      font-size: 1.5rem; 
-      margin-top: 5vh;
-    }
-    }
-
-    @media screen and (max-width: 251px){
-      .sub-title {
-        font-size: 1rem; 
+@media screen and (max-width: 251px){
+  .sub-title {
+    font-size: 1rem; 
       
-      }
-      }
- 
-
-  /* @media screen and (min-width: 0px) and (max-width: 900px) {
-    #mobile-nav{ display: block; } 
-     
   }
-  @media screen and (min-width: 901px) and (max-width: 2000px) {
-    #mobile-nav{ display: none; }
-     
-  } */
+}

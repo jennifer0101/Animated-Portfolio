@@ -18,7 +18,7 @@ Animated portfolio for Video Editor
 
 ## Credits
 
-This website was inspired by the GSAP text Heading animation by Suraj Radhakrishnan found here:[CopePen Heading Animation](https://codepen.io/surajr1711/pen/oNbmRxw) and Anchor navigation to ScrollTriggered section by GreenSock found here: [CodePen Anchor Navigation Tutorial](https://codepen.io/GreenSock/pen/rNKzZdj).
+This website took inspiration from the GSAP Text Heading Animation by Suraj Radhakrishnan found here:[CopePen Heading Animation](https://codepen.io/surajr1711/pen/oNbmRxw), Anchor navigation to ScrollTriggered section by GreenSock found here: [CodePen Anchor Navigation Tutorial](https://codepen.io/GreenSock/pen/rNKzZdj), and GSAP Bounce Annimation by Caleb Gittins  found here: [CodePen Anchor Navigation Tutorial](https://codepen.io/calebgittins/pen/WzjMPa).
 
 ## Project Status
 

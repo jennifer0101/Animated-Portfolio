@@ -13,13 +13,19 @@ body {
   overflow-x: hidden;
 }
 
-a,
+a {
+  color: #da0037 !important;
+}
+.menu {
+  color: #ededed !important;
+}
+
 .step-description {
-  color: white;
+  color: #ededed;
 }
 
 .list-text {
-  color: white;
+  color: #ededed;
   text-align: center;
   padding-top: 15px;
 }
@@ -110,7 +116,7 @@ nav ul li a {
 }
 
 #nav-mobile a:hover, #nav-mobile  a:focus {
-  color: #565656;
+  color: #565656 !important;
 }
 
 /* Mobile Navbar settings */
@@ -310,9 +316,17 @@ padding-top: 20px;
   right: 2rem;
 }
 
-/* next and previous arrows and text on each panel */
-#back-forth {
-  color: #da0037;
+/* animated arrow down */
+.wrap-around {
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+  color:#da0037;
+}
+.wrap-around a, #contact-me{
+ text-align: center !important;
+  color:#da0037;
 }
 
 /* scroll box with text on each panel */

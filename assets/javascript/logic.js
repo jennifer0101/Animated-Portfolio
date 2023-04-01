@@ -120,3 +120,11 @@ tween = gsap.to(panels, {
   function closeNav() {
     document.getElementById("mobile-nav").style.width = "0%";
   }
+
+  var element = $('.arrow-down');
+  var tl = new TimelineMax({ repeat: 20, repeatDelay: 0.5 });
+
+  tl.to(element, 0.4, { y: '12', ease: Power1.easeNone });
+  tl.to(element, 0.2, { y: '0', ease: Power1.easeOut });
+  tl.to(element, 0.2, { y: '8', ease: Power1.easeNone });
+  tl.to(element, 0.4, { y: '0', ease: Power1.easeOut });

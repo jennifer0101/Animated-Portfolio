@@ -102,17 +102,10 @@
         <div class="container">
         <h3 class="section-heading">Explore My Work</h3>
         <div class="row">
-          <div class="col l6 m6 s12"> 
-            <div class="video-container">
-              <iframe width="560" height="315" 
-              src="https://www.youtube.com/embed/U5wDdtDUI84" 
-              title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen></iframe>
-            </div>
+          <div class="col l2 m2 s12"> 
+           
           </div> 
-          <div class="col l6 m6 s12">
+          <div class="col l8 m8 s12">
             <div class="video-container">
               <iframe width="560" height="315" 
               src="https://www.youtube.com/embed/ex2eWCA2bME" 
@@ -122,9 +115,12 @@
               allowfullscreen></iframe>
             </div>
           </div>
+          <div class="col l2 m2 s12">
+           
+          </div>
           <div class="panels-navigation text-right">
             <div class="nav-panel" data-sign="plus">
-              <a href="#panel-2" class="anchor">Next</a>
+              <a href="#panel-2" id="back-forth" class="anchor">Next <i class="tiny material-icons">fast_forward</i></a>
             </div>
           </div>
         </div>
@@ -135,27 +131,33 @@
         <div class="container">
           <h3 class="section-heading">Explore My Work</h3>
           <div class="row">
-            <div class="col l2 m2 s12"> 
-              </div>
-            <div class="col l8 m8 s12"> 
+            <div class="col l6 m6 s12"> 
               <div class="video-container">
-              <iframe width="560" height="315" 
-              src="https://www.youtube.com/embed/TRclNhbynxE" 
-              title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen></iframe>
-            </div>
-            </div>
-            <div class="col l2 m2 s12"> 
-            </div>
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/U5wDdtDUI84" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+              </div>
+              </div>
+              <div class="col l6 m6 s12"> 
+              <div class="video-container">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/TRclNhbynxE" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+              </div>
+              </div>
             <div class="col-6 d-flex flex-column">
               <div class="panels-navigation">
                 <div class="nav-panel" data-sign="minus">
-                  <a href="#explore" class="anchor">Prev</a>
+                  <a href="#explore" id="back-forth" class="anchor"><i class="tiny material-icons">fast_rewind</i> Prev</a>
                 </div>
                 <div class="nav-panel" data-sign="plus">
-                  <a href="#about" class="anchor">Next</a>
+                  <a href="#about" id="back-forth" class="anchor">Next <i class="tiny material-icons">fast_forward</i></a>
                 </div>
               </div>
             </div>
@@ -169,7 +171,8 @@
         <h3 class="section-heading">About Me</h3>
         <div class="row">
           <div class="col l9 m9 s9">
-            <p id="about-info">
+            <div class="scroll-box">
+            <p id="about-info-1">
               I am passionate about technology, and have very good problem-solving, 
             troubleshooting, and creative thinking skills. I have been video editing 
             for over 10 years, learning from my father, who creates videos professionally. 
@@ -177,6 +180,7 @@
               videos for multiple companies, other people’s projects, social media, internal 
               corporate videos, and home videos.
             </p>
+            </div>
           </div>
           <div class="col l3 m3 s3">
             <div id="image-info">
@@ -185,23 +189,12 @@
               alt="Owen Zimmerman Video Editor"/>
             </div>
           </div>
-          <div class="col l9 m9 s9">
-            <p id="about-info">
-              I have worked in IT for the past two years, 
-              learning about various aspects of technology, encountering and troubleshooting hundreds 
-              of issues. I am also assisting a small company with creating a Linux distro, providing 
-              funding through video editing consultations, and piloting user testing and feedback. 
-              I also work with my local teen tech center, assisting them with their technological needs, 
-              such as grant allocation, setup, maintenance, and upgrading their laptops, and consulting 
-              on many of their decisions. I also volunteer at electronics recycling centers.
-            </p>
-          </div>
           <div class="panels-navigation">
             <div class="nav-panel" data-sign="minus">
-              <a href="#panel-2" class="anchor">Prev</a>
+              <a href="#panel-2" id="back-forth" class="anchor"><i class="tiny material-icons">fast_rewind</i> Prev</a>
             </div>
             <div class="nav-panel" data-sign="plus">
-              <a href="#panel-4" class="anchor">Next</a>
+              <a href="#panel-4" id="back-forth" class="anchor">Next <i class="tiny material-icons">fast_forward</i></a>
             </div>
           </div>
         </div>
@@ -212,37 +205,39 @@
         <div class="container">
           <h3 class="section-heading">More About Me</h3>
           <div class="row">
-            <!-- <div class="col l7 m7 s12"> -->
+            <div class="col l12 m12 s12">
             
 
               <p id="m-about-info">
                 <p>
+                  I have worked in IT for the past two years, 
+                  learning about various aspects of technology, encountering and troubleshooting hundreds 
+                  of issues. I am also assisting a small company with creating a Linux distro, providing 
+                  funding through video editing consultations, and piloting user testing and feedback. 
+                  I also work with my local teen tech center, assisting them with their technological needs, 
+                  such as grant allocation, setup, maintenance, and upgrading their laptops, and consulting 
+                  on many of their decisions. I also volunteer at electronics recycling centers.
+                  <br><br>
                    In my spare 
                   time, I enjoy working on my own tech projects, such as fixing old laptops, recovering data, 
                   building computers, pushing the limits of software, 3D modeling, graphic design, tech 
-                  consulting, and collecting and cataloging old tech.
-                </p>
-                <div id="m-image-info">
-                  <img id="gears-pic"
-                    src="assets/images/gears.jpg"
-                    alt="Owen Zimmerman Video Editor"
-                  />
-                </div>
-                <p>
-                  I also enjoy riding my bike, seeing the city, sitting around a bonfire, hanging out with 
+                  consulting, and collecting and cataloging old tech. I also enjoy riding my bike, seeing the city, 
+                  sitting around a bonfire, hanging out with 
                   people, and analyze media.
-                </p>
-              <!-- </div> -->
+                <br><br>
+            
+              </p>
+              </div>
                 <!-- <div class="col l5 m5 s12"> -->
                
                 <!-- </div> -->
 
               <div class="panels-navigation">
                 <div class="nav-panel" data-sign="minus">
-                  <a href="#about" class="anchor">Prev</a>
+                  <a href="#about" id="back-forth" class="anchor"><i class="tiny material-icons">fast_rewind</i> Prev</a>
                 </div>
                 <div class="nav-panel" data-sign="plus">
-                  <a href="#skills" class="anchor">Next</a>
+                  <a href="#skills" id="back-forth" class="anchor">Next <i class="tiny material-icons">fast_forward</i></a>
                 </div>
               </div>
             </div>
@@ -269,7 +264,7 @@
 
               <div class="panels-navigation">
                 <div class="nav-panel" data-sign="minus">
-                  <a href="#panel-4" class="anchor">Prev</a>
+                  <a href="#panel-4" id="back-forth" class="anchor"><i class="tiny material-icons">fast_rewind</i> Prev</a>
                 </div>
               </div>
             </div>

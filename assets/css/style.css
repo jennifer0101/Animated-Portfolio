@@ -14,10 +14,10 @@ body {
 }
 
 a {
-  color: #da0037 !important;
+  color: #ededed !important;
 }
 .menu {
-  color: #ededed !important;
+  color: #da0037 !important;
 }
 
 .step-description {
@@ -234,7 +234,7 @@ padding-top: 20px;
 
 .contact-content a:hover,
 .contact-content a:focus {
-  color: #da0037;
+  color: #da0037 !important;
   text-decoration: underline;
   font-size: 1.1em;
 }
@@ -356,6 +356,11 @@ padding-top: 20px;
   background-color: #2e1a1a;
 }
 
+.scroll-box::-webkit-scrollbar,
+.scroll-box::-webkit-scrollbar-track {
+  display: block !important;
+}
+
 
 /* Diagnol line on contact panel */
 .wave {
@@ -395,6 +400,10 @@ iframe{
   .title {
     font-size: 18vw !important;
   }
+  .section-heading {
+    padding-top:12vh;
+    padding-bottom: 10vh;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -410,6 +419,11 @@ iframe{
   }
   .title {
     font-size: 19vw !important;
+  }
+
+  .section-heading {
+    padding-top: 8vh;
+    padding-bottom: 5vh;
   }
 }
 

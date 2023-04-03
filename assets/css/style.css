@@ -24,19 +24,6 @@ a {
   color: #ededed;
 }
 
-.list-text {
-  color: #ededed;
-  text-align: center;
-  padding-top: 15px;
-}
-
-.skills {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 h1,
 h2,
 h3,
@@ -45,6 +32,7 @@ h5,
 h6 {
   font-family: "Oswald", sans-serif;
   font-weight: 800;
+  color: #ededed;
 }
 
 p {
@@ -77,9 +65,28 @@ p {
   color: #ededed;
 }
 
+#soft-title {
+  text-align: center;
+}
+
+.list-text {
+  color: #ededed;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 45px;
+  font-size: 14px;
+}
+
 .c-labels {
   margin-top: -20px;
   padding-top: 0px;
+}
+
+.skills {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 /* Navbar settings */
@@ -120,7 +127,6 @@ nav ul li a {
 }
 
 /* Mobile Navbar settings */
-
 .overlay {
   height: 100%;
   width: 0;
@@ -180,35 +186,30 @@ nav ul li a {
 }
 
 /* Article/Panel settings */
-
 #about-info, #m-about-info {
-text-align: left;
-padding: 15px 30px 0px 30px;
-
+  text-align: left;
+  padding: 15px 30px 0px 30px;
 }
 
 #image-info {
-padding-left: 20px;
-padding-top: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
-#gears-pic {
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
+#about-owen-2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-
-
+  width: 65%;
+  margin-top: -15px;
 }
 
 #owen-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  margin-top: -20px;
+  width: 65%;
+  margin-top: -15px;
 }
 
 #home {
@@ -217,9 +218,6 @@ padding-top: 20px;
   justify-content: center;
   height: 100vh;
   background-image: linear-gradient(#000000, #171717);
-  /* flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 90px; */
 }
 
 #contact {
@@ -252,9 +250,7 @@ padding-top: 20px;
   margin-top: -100px;
 }
 
-
 /* Panel animation */
-
 .full-screen {
   display: block;
   width: 100%;
@@ -320,7 +316,7 @@ padding-top: 20px;
 .wrap-around {
 	position: absolute;
 	top: 95%;
-	left: 50%;
+	left: 45%;
 	transform: translate(-50%,-50%);
   color:#da0037;
 }
@@ -333,7 +329,7 @@ padding-top: 20px;
 .scroll-box {
   background: #565656;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  height: 400px; /* maximum height of the box, feel free to change this! */
+  height: 40vh; /* maximum height of the box, feel free to change this! */
   padding: 15px;
   overflow-y: auto;
 }
@@ -356,6 +352,7 @@ padding-top: 20px;
   background-color: #2e1a1a;
 }
 
+      /* Show on mobile */
 .scroll-box::-webkit-scrollbar,
 .scroll-box::-webkit-scrollbar-track {
   display: block !important;
@@ -404,6 +401,12 @@ iframe{
     padding-top:12vh;
     padding-bottom: 10vh;
   }
+  #about-owen-2 {
+    width: 90%;
+  }
+  #owen-pic {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -420,10 +423,32 @@ iframe{
   .title {
     font-size: 19vw !important;
   }
-
   .section-heading {
     padding-top: 8vh;
     padding-bottom: 5vh;
+  }
+  #about-owen-2 {
+    width: 50%;
+  }
+  #owen-pic {
+    width: 50%;
+  }
+  .scroll-box {
+    margin: 25px;
+    height: 30vh; 
+  }
+  body {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .step-description {
+    font-size: 16px;
+  }
+  .skills { 
+    width: 50%;
+  }
+  .list-text {
+    padding-bottom: 35px;
   }
 }
 
@@ -436,7 +461,6 @@ iframe{
 
 @media screen and (max-width: 251px){
   .sub-title {
-    font-size: 1rem; 
-      
+    font-size: 1rem;  
   }
 }

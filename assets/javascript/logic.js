@@ -129,6 +129,8 @@ tween = gsap.to(panels, {
   tl.to(element, 0.2, { y: '8', ease: Power1.easeNone });
   tl.to(element, 0.4, { y: '0', ease: Power1.easeOut });
 
+
+// mobile viewport fix
   const documentHeight = () => {
     const doc = document.documentElement
     doc.style.setProperty('--doc-height', `${window.innerHeight}px`)

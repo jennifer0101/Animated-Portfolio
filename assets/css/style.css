@@ -433,15 +433,25 @@ iframe{
     padding-top: 2vh;
     padding-bottom: 3vh;
   }
-  #about-owen-2 {
+
+  #owen-pic-circ-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
+    margin-top: 15%;
   }
-  #owen-pic {
+  #owen-pic-circ-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
+    margin-bottom: 15%;
   }
   .scroll-box {
     margin: 25px;
     height: 30vh; 
+    width: 90%;
   }
   body {
     font-size: 16px;
@@ -469,7 +479,7 @@ iframe{
   @media screen and (max-width: 480px){
   .wave.upper {
     margin-bottom: 50px;
-    padding-bottom: -5px;
+    padding-bottom: -10px;
   }
 }
 

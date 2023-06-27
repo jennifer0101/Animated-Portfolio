@@ -71,7 +71,8 @@ p {
 }
 
 #soft-title {
-  text-align: center;
+  text-align: left;
+  padding-left: 13%;
 }
 
 .list-text {
@@ -334,7 +335,7 @@ nav ul li a {
 .scroll-box {
   background: #565656;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  height: 40vh; /* maximum height of the box, feel free to change this! */
+  height: 40vh; 
   padding: 15px;
   overflow-y: auto;
 }
@@ -429,8 +430,8 @@ iframe{
     font-size: 19vw !important;
   }
   .section-heading {
-    padding-top: 8vh;
-    padding-bottom: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
   }
   #about-owen-2 {
     width: 50%;
@@ -448,18 +449,27 @@ iframe{
   }
   .step-description {
     font-size: 16px;
+   text-align: center;
+  }
+  .mobile-center {
+    text-align: center !important;
   }
   .skills { 
-    width: 50%;
+    width: 30%;
   }
   .list-text {
     padding-bottom: 35px;
+  }
+  #soft-title {
+    padding-left: 0;
+    text-align: center;
   }
 }
 
   @media screen and (max-width: 480px){
   .wave.upper {
     margin-bottom: 50px;
+    padding-bottom: -5px;
   }
 }
 

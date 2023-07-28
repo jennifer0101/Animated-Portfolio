@@ -18,15 +18,19 @@ body {
   overflow-x: hidden;
 }
 
+.main-site-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 a {
   color: #ededed !important;
 }
+
 .menu {
   color: #da0037 !important;
-}
-
-.step-description {
-  color: #ededed;
 }
 
 h1,
@@ -65,7 +69,7 @@ p {
 
 .section-heading {
   padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-bottom: 10vh;
   text-align: center;
   color: #ededed;
 }
@@ -81,11 +85,6 @@ p {
   padding-top: 5px;
   padding-bottom: 45px;
   font-size: 14px;
-}
-
-.c-labels {
-  margin-top: -20px;
-  padding-top: 0px;
 }
 
 .skills {
@@ -191,10 +190,11 @@ nav ul li a {
   margin-top: 0px;
 }
 
-/* Article/Panel settings */
-#about-info, #m-about-info {
+#about-info {
   text-align: left;
-  padding: 15px 30px 0px 30px;
+  padding: 30px;
+  background-color: #565656;
+  border-radius: 5px;
 }
 
 #image-info {
@@ -202,19 +202,14 @@ nav ul li a {
   padding-top: 20px;
 }
 
-#about-owen-2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 65%;
-  margin-top: -15px;
-}
-
 #owen-pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   height: 30vh;
+  border-radius: 5px;
+  float: left;
+  border-style: solid;
+  border-width: 2px;
+  border-color:  rgba(24, 24, 24, 0.9);
+  margin: 5px 10px 0px 5px;
 }
 
 #home {
@@ -259,7 +254,7 @@ nav ul li a {
 .wrap-around {
 	position: absolute;
 	top: 95%;
-	left: 45%;
+	left: 50%;
 	transform: translate(-50%,-50%);
   color:#da0037;
 }
@@ -267,40 +262,6 @@ nav ul li a {
  text-align: center !important;
   color:#da0037;
 }
-
-/* scroll box with text on each panel */
-.scroll-box {
-  background: #565656;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  height: 45vh; 
-  padding: 15px;
-  overflow-y: auto;
-}
-
-.scroll-box::-webkit-scrollbar {
-  -webkit-appearance: none;
-}
-
-.scroll-box::-webkit-scrollbar:vertical {
-  width: 11px;
-}
-
-.scroll-box::-webkit-scrollbar:horizontal {
-  height: 11px;
-}
-
-.scroll-box::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  border: 2px solid#565656; /* should match background, can't be transparent */
-  background-color: #2e1a1a;
-}
-
-      /* Show on mobile */
-.scroll-box::-webkit-scrollbar,
-.scroll-box::-webkit-scrollbar-track {
-  display: block !important;
-}
-
 
 /* Diagnol line on contact panel */
 .wave {
@@ -339,20 +300,14 @@ iframe{
   }
   .title {
     font-size: 18vw !important;
-  }
-  .section-heading {
-    padding-top:12vh;
-    padding-bottom: 10vh;
-  }
-  #about-owen-2 {
-    width: 90%;
-  }
-  #owen-pic {
-    width: 100%;
-  }
+    }
 }
 
 @media screen and (max-width: 600px){
+  body {
+    font-size: 16px;
+    line-height: 1.4;
+  }
   #nav-wrapper {
       display: none;
   }
@@ -365,51 +320,6 @@ iframe{
   }
   .title {
     font-size: 19vw !important;
-  }
-  .section-heading {
-    padding-top: 2vh;
-    padding-bottom: 3vh;
-  }
-
-  #owen-pic-circ-1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: 15%;
-  }
-  #owen-pic-circ-2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: 15%;
-  }
-  .scroll-box {
-    margin: 25px;
-    height: 30vh; 
-    width: 90%;
-  }
-  body {
-    font-size: 16px;
-    line-height: 1.4;
-  }
-  .step-description {
-    font-size: 16px;
-   text-align: center;
-  }
-  .mobile-center {
-    text-align: center !important;
-  }
-  .skills { 
-    width: 30%;
-  }
-  .list-text {
-    padding-bottom: 35px;
-  }
-  #soft-title {
-    padding-left: 0;
-    text-align: center;
   }
 }
 

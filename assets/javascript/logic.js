@@ -1,5 +1,7 @@
 $(document).ready(function () {
   $(".sidenav").sidenav();
+  $('.scrollspy').scrollSpy();
+  
 // Sticky Navbar after scroll
   window.onscroll = function () {
     myFunction();
@@ -19,7 +21,7 @@ $(document).ready(function () {
   // Title and Sub-Title animation GSAP
   const headingTl = gsap.timeline({
     repeat: -1,
-    repeatDelay: 2,
+    repeatDelay: 1,
     yoyo: true,
   });
 

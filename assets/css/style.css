@@ -69,7 +69,7 @@ p {
 
 .section-heading {
   padding-top: 15vh;
-  padding-bottom: 10vh;
+  padding-bottom: 8vh;
   text-align: center;
   color: #ededed;
 }
@@ -128,7 +128,7 @@ nav ul li a {
 }
 
 #nav-mobile a:hover, #nav-mobile  a:focus {
-  color: #565656 !important;
+  color:  #565656 !important;
 }
 
 /* Mobile Navbar settings */
@@ -284,6 +284,8 @@ iframe{
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
+  border-radius: 5px;
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 1245px){
